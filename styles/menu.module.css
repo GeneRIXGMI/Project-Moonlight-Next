@@ -50,9 +50,9 @@
   border-radius: 10px;
 }
 
-.breakfast_menu {
+.items_menu {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -60,41 +60,37 @@
   color: white;
 }
 
+.itemPrice {
+  color: white;
+}
+
+.menuHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.menuSeparator {
+  color: white;
+}
+
+.item_details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .item_price {
   color: white;
   font-size: large;
-  text-align: right;
+  text-align: center;
+  font-weight: bold;
 }
 
 .item {
   display: flex;
   flex-direction: column;
-}
-
-.item_details {
-  display: flex;
-  justify-content: space-between;
-}
-.dinner_menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.lunch_menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.drinks_menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.dessert_menu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }

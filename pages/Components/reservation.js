@@ -3,7 +3,7 @@ import styles from "../../styles/reservation.module.css";
 function LReservation() {
   return (
     <div className={styles.reservation}>
-      <div className={styles.form}>
+      <form className={styles.form}>
         <div className={styles.name}>
           <label className={styles.label}>Your Name: </label>
           <input
@@ -73,7 +73,7 @@ function LReservation() {
         <button className={styles.bookbtn} type="submit">
           Book Table
         </button>
-      </div>
+      </form>
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import { useState } from "react";
-import LHome from "./Components/homepage";
-import LMenu from "./Components/menu";
-import LContact from "./Components/contact";
-import LReservation from "./Components/reservation";
+import LHome from "./components/homepage";
+import LMenu from "./components/menu";
+import LContact from "./components/contact";
+import LReservation from "./components/reservation";
 import styles from "../styles/navbar.module.css";
 
 export default function Home() {
